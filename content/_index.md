@@ -34,29 +34,33 @@ sections:
           size: cover
           position: center
           parallax: false
+
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+      
+        In short, we are sending lasers into mouse brains to create sound so that we can measure the electrical activity of neurons.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        We are developing advanced optical techniques to image non-invasively the electrical activity of single neurons in mice at large depths (> 1 mm). In this regime, much of the light has been scattered multiple times by the brain tissue and therefore cannot be used to build high resolution images (even with 2 or 3-photon microscopy). So we add another kind of waves to help us out: ultrasounds. When absorbers (like hemoglobin, or calcium indicators) heat up under pulsed illumination, they emit pressure waves that are not scattered by soft tissue, and can therefore be externally measured to reconstruct the inner optical absorption: this is the principle of photoacoustic imaging. But the conventional piezoelectric detectors are not sensitive enough at high frequencies needed to resolve single neurons. So we add one more laser, in order to optically measure sound and reach the desired resolution.
+        We believe that this new technique can have a significant impact in neurobiology, by providing non-invasive access to the deeper layers of the cortex and to the hippocampus.
+
     design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+      columns: '3'
+
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
+
   - block: collection
     content:
       title: Recent Publications
@@ -67,6 +71,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      
   - block: collection
     id: talks
     content:
