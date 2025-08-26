@@ -6,7 +6,7 @@
 # Website name
 title: Welcome to the Chlab
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://chlab.xyz' #'https://example.com/'
 
 ############################
 ## LANGUAGE
