@@ -34,6 +34,7 @@ sections:
           size: cover
           position: center
           parallax: false
+
   - block: markdown
     content:
       title: '📚 Research'
@@ -58,6 +59,7 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
+
   - block: collection
     id: papers
     content:
@@ -69,6 +71,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      
   - block: collection
     id: talks
     content:
